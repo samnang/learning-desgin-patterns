@@ -25,7 +25,7 @@ Line = function() {
 	var _legacyLine = new LegacyLine();
 	
 	this.draw = function(x1, y1, x2, y2) {
-		_legacyLine.drawLine(x1, y1, x2, y2, "black");
+		_legacyLine.drawLine(x1, y1, x2, y2);
 	};
 };
 
