@@ -1,8 +1,7 @@
 ﻿/*
-Adapter Pattern:
+Adapter Singleton:
 
-Ensure that only one instance of a class is created.
-Provide a global point of access to the object.
+Ensure a class has only one instance and provide a global point of access to it.
 */
 
 using System;
