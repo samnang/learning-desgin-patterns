@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder_CS", "Builder_CS\Bu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype_CS", "Prototype_CS\Prototype_CS.csproj", "{D615E8D0-90F8-4A88-8F40-A6D623F10A86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton_CS", "Singleton_CS\Singleton_CS.csproj", "{8CDB0658-6FAE-41B3-A9F8-0A336A4149D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{D615E8D0-90F8-4A88-8F40-A6D623F10A86}.Debug|x86.Build.0 = Debug|x86
 		{D615E8D0-90F8-4A88-8F40-A6D623F10A86}.Release|x86.ActiveCfg = Release|x86
 		{D615E8D0-90F8-4A88-8F40-A6D623F10A86}.Release|x86.Build.0 = Release|x86
+		{8CDB0658-6FAE-41B3-A9F8-0A336A4149D0}.Debug|x86.ActiveCfg = Debug|x86
+		{8CDB0658-6FAE-41B3-A9F8-0A336A4149D0}.Debug|x86.Build.0 = Debug|x86
+		{8CDB0658-6FAE-41B3-A9F8-0A336A4149D0}.Release|x86.ActiveCfg = Release|x86
+		{8CDB0658-6FAE-41B3-A9F8-0A336A4149D0}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
