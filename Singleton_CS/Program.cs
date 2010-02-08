@@ -12,17 +12,20 @@ namespace Singleton_CS {
     {
         static ApplicationSettings _instance;
 
-        public static ApplicationSettings GetInstance()
-        {
-            if (_instance == null)
-            {
-                lock (typeof(ApplicationSettings))
-                {
-                    _instance = new ApplicationSettings();  
-                }                
-            }               
+        private ApplicationSettings() { }
 
-            return _instance;
+        public static ApplicationSettings Instance
+        {
+            get
+            {
+                if (_instance == null) {
+                    lock (typeof(ApplicationSettings)) {
+                        _instance = new ApplicationSettings();
+                    }
+                }
+
+                return _instance;    
+            }            
         }
 
         public string ApplicationName { get { return "Singleton in Practice."; } }
@@ -32,8 +35,8 @@ namespace Singleton_CS {
     class Program {
         static void Main(string[] args) {
 
-            var appSetting = ApplicationSettings.GetInstance();
-            var appSetting2 = ApplicationSettings.GetInstance();
+            var appSetting = ApplicationSettings.Instance;
+            var appSetting2 = ApplicationSettings.Instance;
 
             if(appSetting == appSetting2)
             {
