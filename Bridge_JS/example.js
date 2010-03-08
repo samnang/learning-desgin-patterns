@@ -11,12 +11,12 @@ Shape = function(drawing) {
 }
 
 // The 'RefinedAbstraction' class
-Rectangle = function(drawing, x1, y1, x2, y2) {
+Rectangle = function(drawing, x, y, w, h) {
 	Shape.call(this, drawing);
-	var _x1 = x1;
-	var _y1 = y1;
-	var _x2 = x2;
-	var _y2 = y2;
+	var _x1 = x;
+	var _y1 = y;
+	var _x2 = x + w;
+	var _y2 = y + h;
 	
 	this.draw = function() {
 		console.log('Drawing rectangle');
@@ -42,7 +42,7 @@ Circle = function(drawing, x, y, r) {
 
 //The 'ConcretImplementor' class
 SVG = function() {
-	this.drawLine = function (x, y){
+	this.drawLine = function (x1, y1, x2, y2){
 		console.log('Calling SVG drawLine function');
 	};
 	
