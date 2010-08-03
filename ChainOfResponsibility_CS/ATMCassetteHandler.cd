@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChainOfResponsibility_CS.ATMCassetteHandler" Collapsed="true">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAEAIAAAAgAAAAACAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChainOfResponsibility_CS.HundredCashHandler" Collapsed="true">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChainOfResponsibility_CS.FiftyCashHandler" Collapsed="true">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChainOfResponsibility_CS.TwentyCashHandler" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChainOfResponsibility_CS.TenCashHandler" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

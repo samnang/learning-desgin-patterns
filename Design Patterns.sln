@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge_CS", "Bridge_CS\Brid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite_CS", "Composite_CS\Composite_CS.csproj", "{ED8FF12A-1EB7-4C50-84DB-B66497A5A934}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility_CS", "ChainOfResponsibility_CS\ChainOfResponsibility_CS.csproj", "{BF964A02-5AAE-4D1A-B21F-399860A90767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor_CS", "Visitor_CS\Visitor_CS.csproj", "{FB34FCAC-8712-43D4-BF16-34D360C1A958}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +75,26 @@ Global
 		{ED8FF12A-1EB7-4C50-84DB-B66497A5A934}.Release|Mixed Platforms.Build.0 = Release|x86
 		{ED8FF12A-1EB7-4C50-84DB-B66497A5A934}.Release|x86.ActiveCfg = Release|x86
 		{ED8FF12A-1EB7-4C50-84DB-B66497A5A934}.Release|x86.Build.0 = Release|x86
+		{BF964A02-5AAE-4D1A-B21F-399860A90767}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{BF964A02-5AAE-4D1A-B21F-399860A90767}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{BF964A02-5AAE-4D1A-B21F-399860A90767}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{BF964A02-5AAE-4D1A-B21F-399860A90767}.Debug|x86.ActiveCfg = Debug|x86
+		{BF964A02-5AAE-4D1A-B21F-399860A90767}.Debug|x86.Build.0 = Debug|x86
+		{BF964A02-5AAE-4D1A-B21F-399860A90767}.Release|Any CPU.ActiveCfg = Release|x86
+		{BF964A02-5AAE-4D1A-B21F-399860A90767}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{BF964A02-5AAE-4D1A-B21F-399860A90767}.Release|Mixed Platforms.Build.0 = Release|x86
+		{BF964A02-5AAE-4D1A-B21F-399860A90767}.Release|x86.ActiveCfg = Release|x86
+		{BF964A02-5AAE-4D1A-B21F-399860A90767}.Release|x86.Build.0 = Release|x86
+		{FB34FCAC-8712-43D4-BF16-34D360C1A958}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{FB34FCAC-8712-43D4-BF16-34D360C1A958}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{FB34FCAC-8712-43D4-BF16-34D360C1A958}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{FB34FCAC-8712-43D4-BF16-34D360C1A958}.Debug|x86.ActiveCfg = Debug|x86
+		{FB34FCAC-8712-43D4-BF16-34D360C1A958}.Debug|x86.Build.0 = Debug|x86
+		{FB34FCAC-8712-43D4-BF16-34D360C1A958}.Release|Any CPU.ActiveCfg = Release|x86
+		{FB34FCAC-8712-43D4-BF16-34D360C1A958}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{FB34FCAC-8712-43D4-BF16-34D360C1A958}.Release|Mixed Platforms.Build.0 = Release|x86
+		{FB34FCAC-8712-43D4-BF16-34D360C1A958}.Release|x86.ActiveCfg = Release|x86
+		{FB34FCAC-8712-43D4-BF16-34D360C1A958}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
